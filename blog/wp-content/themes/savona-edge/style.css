@@ -1,0 +1,218 @@
+/*
+Theme Name:   Savona Edge
+Theme URI:    https://optimathemes.com/savona-theme/
+Author:       Aslam
+Author URI:   https://optimathemes.com/
+Description:  Savona Edge is a free multi-purpose WordPress Blog theme. This is a new design theme for Savona with cool colors. Its perfect for any kind of blog or website: fashion, travel, health, fitness, beauty, lifestyle, food, news, magazine, blogging, personal, professional, tech, etc. Its fully Responsive and Retina Display ready, clean, modern and minimal design. Savona is WooCommerce compatible, SEO friendly and also has RTL(Right To Left) support.
+Template:     savona
+Version:      1.0.0
+License:      GPLv3 or later
+License URI:  http://www.gnu.org/licenses/gpl-3.0.en.html
+Tags:         blog, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, footer-widgets, rtl-language-support, sticky-post, translation-ready, theme-options, threaded-comments
+Text Domain:  savona-edge
+*/
+
+/*
+Customizations of this theme start here
+*/
+
+/* style.css */
+
+
+/*--------------------------------------------------------------
+Header Sections
+--------------------------------------------------------------*/
+
+#top-bar {
+    box-shadow: unset !important;
+    background-color: #eeeeee !important;
+    border-bottom: 1px solid #eee;
+}
+
+#top-bar a {
+    color: #333 !important;
+}
+
+
+#top-menu li a {
+    font-weight: 500;
+}
+
+.main-nav-sidebar span, .sidebar-alt-close-btn span {
+    background-color: #000000;
+}
+
+.main-nav-sidebar span {
+    display: block;
+    width: 17px;
+    height: 1px;
+    margin-bottom: 4px;
+}
+
+#main-nav {
+    background: #ffffff;
+    box-shadow: unset !important;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+
+#main-menu li a {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#main-nav a, #main-nav i, #main-nav #s {
+    color: #000000;
+}
+
+.entry-header {
+    border-bottom: unset;
+}
+
+.savona-widget .widget-title {
+    border: unset;
+    border: 1px solid #eee;
+    background: #eeeeee;
+}
+
+.savona-widget .widget-title::after {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 10px solid #eeeeee;
+}
+
+#page-content .savona-widget .widget-title h2 {
+    font-weight: normal;
+    color: #333;
+}
+
+#main-menu .sub-menu > li > a {
+    line-height: 20px;
+}
+
+#main-menu .sub-menu, #main-menu .sub-menu a {
+    background-color: #ffffff !important;
+    border-color: rgba(0,0,0, 0.07) !important;
+}
+
+#main-menu .sub-menu, #main-menu .sub-menu a:hover {
+    background-color: #fafafa !important;
+}
+
+#top-menu .sub-menu > li > a {
+    line-height: 20px;
+}
+
+#top-menu .sub-menu, #top-menu .sub-menu a {
+    background-color: #ffffff !important;
+    border-color: rgba(0,0,0, 0.07) !important;
+}
+
+#top-menu .sub-menu, #top-menu .sub-menu a:hover {
+    background-color: #fafafa !important;
+}
+
+.widget_search i {
+    color: #595959;
+    background-color: #eeeeee !important;
+}
+
+/*--------------------------------------------------------------
+Comments Area
+--------------------------------------------------------------*/
+
+.comments-area {
+  margin-top: 30px;
+}
+
+#reply-title,
+#reply-title a,
+.comment-title h2,
+.comment-title {
+  margin-bottom: 44px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.comments-area .children {
+  margin-left: 50px;
+}
+
+.entry-comments {
+  overflow: hidden;
+  padding: 0px 0 55px;
+  margin-bottom: 40px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  font-size: 15px;
+  line-height: 24.2px;
+}
+
+.comment-content {
+  overflow: hidden;
+}
+
+.comment-avatar {
+  float: left;
+  margin-right: 17px;
+}
+
+.comment-avatar img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/*--------------------------------------------------------------
+Featured Links
+--------------------------------------------------------------*/
+
+#featured-links {
+  padding-top: 40px;
+}
+
+#featured-links .boxed-wrapper {
+  font-size: 0;
+  text-align: center;
+}
+
+#featured-links .featured-link {
+  position: relative;
+  float: left;
+}
+
+#featured-links a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#featured-links .cv-outer {
+  padding: 12px;
+}
+
+#featured-links h4 {
+  display: inline-block;
+  padding: 11px 20px;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+Blog Pagination
+--------------------------------------------------------------*/
+
+.blog-pagination {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 0px 0 50px;
+}

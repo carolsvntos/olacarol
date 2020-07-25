@@ -1,0 +1,630 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Savona\n"
+"POT-Creation-Date: 2017-10-19 11:59+0400\n"
+"PO-Revision-Date: 2017-10-19 12:01+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:6
+msgid "Page not found!"
+msgstr ""
+
+#: 404.php:9
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help "
+"or go back to "
+msgstr ""
+
+#: 404.php:10
+msgid "Homepage"
+msgstr ""
+
+#: comments.php:5
+msgid ""
+"This post is password protected. Enter the password to view the comments."
+msgstr ""
+
+#: comments.php:13 templates/grid/blog-grid.php:87
+#: templates/single/post-content.php:77
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:13
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:13
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:27
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:31
+msgid "Newer Comments"
+msgstr ""
+
+#: footer.php:36
+msgid "Savona Theme by "
+msgstr ""
+
+#: footer.php:38
+msgid "Optima Themes"
+msgstr ""
+
+#: functions.php:50
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:51
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:81
+msgid ""
+"Thank you for choosing Savona! Now, we higly recommend you to visit our "
+"welcome page."
+msgstr ""
+
+#: functions.php:82
+msgid "Get Started with Savona"
+msgstr ""
+
+#: functions.php:142 functions.php:150
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:169
+msgid "Sidebar Right"
+msgstr ""
+
+#: functions.php:171 functions.php:181
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:179
+msgid "Sidebar Left"
+msgstr ""
+
+#: functions.php:189
+msgid "Slide Out Sidebar"
+msgstr ""
+
+#: functions.php:191
+msgid "Add widgets here to appear in your alternative/fixed sidebar."
+msgstr ""
+
+#: functions.php:199
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:201
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:226 functions.php:238
+msgid "Set up Menu"
+msgstr ""
+
+#: functions.php:440
+msgid "Search..."
+msgstr ""
+
+#: functions.php:440
+msgid "Type & hit enter..."
+msgstr ""
+
+#: functions.php:464
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:466 functions.php:487
+msgid "&nbsp;at&nbsp;"
+msgstr ""
+
+#: functions.php:467 functions.php:490
+msgid "[Edit]"
+msgstr ""
+
+#: functions.php:499
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/about/about-savona.php:13
+msgid "Welcome to Savona!"
+msgstr ""
+
+#: inc/about/about-savona.php:15
+msgid ""
+"Savona is a free multi-purpose Wordpress Blog theme. It's perfect for any "
+"kind of blog or website: personal, professional, tech, fashion, travel, "
+"health, lifestyle, food, blogging etc. Its fully Responsive and Retina "
+"Display ready, clean, modern and minimal design. Savona is WooCommerce "
+"compatible, SEO friendly and also has RTL support."
+msgstr ""
+
+#: inc/about/about-savona.php:23
+msgid "Getting Started"
+msgstr ""
+
+#: inc/about/about-savona.php:26
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/about/about-savona.php:29 inc/customizer/customizer.php:322
+msgid "Support"
+msgstr ""
+
+#: inc/about/about-savona.php:32
+msgid "Free vs Pro"
+msgstr ""
+
+#: inc/about/about-savona.php:44
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/about/about-savona.php:46
+msgid ""
+"Highly recommended to begin with this, read the full theme documentation to "
+"understand the basics and even more details about how to use Savona. It is "
+"worth to spend 10 minutes and know almost everything about the theme."
+msgstr ""
+
+#: inc/about/about-savona.php:48
+msgid "Read Documentation"
+msgstr ""
+
+#: inc/about/about-savona.php:52
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/about/about-savona.php:54
+msgid ""
+"All theme options are located here. After reading the Theme Documentation we "
+"recommend you to open the Theme Customizer and play with some options. You "
+"will enjoy it."
+msgstr ""
+
+#: inc/about/about-savona.php:56
+msgid "Customize Your Site"
+msgstr ""
+
+#: inc/about/about-savona.php:66
+msgid ""
+"Recommended Plugins are fully supported by Savona theme, they are styled to "
+"fit the theme design and performing well. Not mandatory, but may be usefl."
+msgstr ""
+
+#: inc/about/about-savona.php:103
+msgid "Forums"
+msgstr ""
+
+#: inc/about/about-savona.php:106
+msgid ""
+"Before asking a questions it's highly recommended to search on forums, but "
+"if you can't find the solution feel free to create a new topic."
+msgstr ""
+
+#: inc/about/about-savona.php:108
+msgid "Go to Support Forums"
+msgstr ""
+
+#: inc/about/about-savona.php:115 inc/customizer/customizer.php:317
+msgid "Documentation"
+msgstr ""
+
+#: inc/about/about-savona.php:118
+msgid ""
+"Need more details? Please check our full documentation for detailed "
+"information on how to use Savona."
+msgstr ""
+
+#: inc/about/about-savona.php:120
+msgid "Read Full Documentation"
+msgstr ""
+
+#: inc/about/about-savona.php:127
+msgid "Changelog"
+msgstr ""
+
+#: inc/about/about-savona.php:130
+msgid ""
+"Stay always up to date, check for fixes, updates and some new feauters you "
+"should not miss."
+msgstr ""
+
+#: inc/about/about-savona.php:132
+msgid "See Changelog"
+msgstr ""
+
+#: inc/about/about-savona.php:139
+msgid "Donation"
+msgstr ""
+
+#: inc/about/about-savona.php:142
+msgid ""
+"Even a small sum can help us a lot with theme development. If the Savona theme "
+"is useful and our support is helpful, please don't hesitate to donate a "
+"little bit, at least buy us a Coffee :)"
+msgstr ""
+
+#: inc/about/about-savona.php:144
+msgid "Donate with PayPal"
+msgstr ""
+
+#: inc/about/about-savona.php:159 inc/about/about-savona.php:407
+#: inc/customizer/customizer.php:307
+msgid "Get Savona Pro"
+msgstr ""
+
+#: inc/about/about-savona.php:162 inc/about/about-savona.php:411
+#: inc/customizer/customizer.php:312
+msgid "Try Savona Pro Trial"
+msgstr ""
+
+#: inc/about/about-savona.php:449
+msgid "Installed"
+msgstr ""
+
+#: inc/about/about-savona.php:452
+msgid "Install Now"
+msgstr ""
+
+#: inc/customizer/customizer.php:327
+msgid "Download Demo Content"
+msgstr ""
+
+#: inc/customizer/customizer.php:342
+msgid "About Savona"
+msgstr ""
+
+#: inc/customizer/customizer.php:374
+msgid "Want more Colors? See "
+msgstr ""
+
+#: inc/customizer/customizer.php:384
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/customizer.php:390
+msgid "Accent"
+msgstr ""
+
+#: inc/customizer/customizer.php:397
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:430 inc/customizer/customizer.php:493
+#: inc/customizer/customizer.php:524 inc/customizer/customizer.php:559
+#: inc/customizer/customizer.php:586 inc/customizer/customizer.php:637
+#: inc/customizer/customizer.php:754 inc/customizer/customizer.php:822
+#: inc/customizer/customizer.php:982
+msgid "Want more Options? See "
+msgstr ""
+
+#: inc/customizer/customizer.php:440
+msgid "General Layouts"
+msgstr ""
+
+#: inc/customizer/customizer.php:446
+msgid "Sidebar Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:449
+msgid "Enable Sticky Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer.php:452 inc/customizer/customizer.php:461
+msgid "Full"
+msgstr ""
+
+#: inc/customizer/customizer.php:453
+msgid "Contained"
+msgstr ""
+
+#: inc/customizer/customizer.php:454 inc/customizer/customizer.php:462
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/customizer.php:458
+msgid "Header Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:466
+msgid "Featured Slider Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:469
+msgid "Featured Links Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:472
+msgid "Content Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:475
+msgid "Single Content Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:478
+msgid "Footer Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:503 inc/customizer/customizer.php:509
+msgid "Top Bar"
+msgstr ""
+
+#: inc/customizer/customizer.php:536
+msgid "Page Header"
+msgstr ""
+
+#: inc/customizer/customizer.php:539
+msgid "Cover"
+msgstr ""
+
+#: inc/customizer/customizer.php:540
+msgid "Pattern"
+msgstr ""
+
+#: inc/customizer/customizer.php:544
+msgid "Background Image Size"
+msgstr ""
+
+#: inc/customizer/customizer.php:569
+msgid "Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:596 inc/customizer/customizer.php:602
+msgid "Main Navigation"
+msgstr ""
+
+#: inc/customizer/customizer.php:605
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/customizer.php:606
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/customizer.php:607
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/customizer.php:611
+msgid "Align"
+msgstr ""
+
+#: inc/customizer/customizer.php:614
+msgid "Above Page Header"
+msgstr ""
+
+#: inc/customizer/customizer.php:615
+msgid "Below Page Header"
+msgstr ""
+
+#: inc/customizer/customizer.php:619
+msgid "Show Search Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:622
+msgid "Show Sidebar Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:647 inc/customizer/customizer.php:653
+msgid "Featured Slider"
+msgstr ""
+
+#: inc/customizer/customizer.php:661
+msgid "Display Posts"
+msgstr ""
+
+#: inc/customizer/customizer.php:670
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer/customizer.php:673
+msgid "Number of Slides"
+msgstr ""
+
+#: inc/customizer/customizer.php:678
+msgid "Show Navigation Arrows"
+msgstr ""
+
+#: inc/customizer/customizer.php:681
+msgid "Show Pagination Dots"
+msgstr ""
+
+#: inc/customizer/customizer.php:696
+msgid "Want more Links? See "
+msgstr ""
+
+#: inc/customizer/customizer.php:706 inc/customizer/customizer.php:712
+msgid "Featured Links"
+msgstr ""
+
+#: inc/customizer/customizer.php:715 inc/customizer/customizer.php:724
+#: inc/customizer/customizer.php:733
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/customizer.php:718 inc/customizer/customizer.php:727
+#: inc/customizer/customizer.php:736 inc/customizer/customizer.php:949
+#: inc/customizer/customizer.php:955 inc/customizer/customizer.php:961
+#: inc/customizer/customizer.php:967
+msgid "URL"
+msgstr ""
+
+#: inc/customizer/customizer.php:721 inc/customizer/customizer.php:730
+#: inc/customizer/customizer.php:739
+msgid "Image"
+msgstr ""
+
+#: inc/customizer/customizer.php:764
+msgid "Blog Page"
+msgstr ""
+
+#: inc/customizer/customizer.php:770 inc/customizer/customizer.php:802
+msgid "None"
+msgstr ""
+
+#: inc/customizer/customizer.php:771
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/customizer/customizer.php:772
+msgid "Post Content"
+msgstr ""
+
+#: inc/customizer/customizer.php:776
+msgid "Post Description"
+msgstr ""
+
+#: inc/customizer/customizer.php:779
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/customizer.php:780
+msgid "Numeric"
+msgstr ""
+
+#: inc/customizer/customizer.php:784
+msgid "Post Pagination"
+msgstr ""
+
+#: inc/customizer/customizer.php:787 inc/customizer/customizer.php:838
+msgid "Show Categories"
+msgstr ""
+
+#: inc/customizer/customizer.php:790 inc/customizer/customizer.php:841
+msgid "Show Date"
+msgstr ""
+
+#: inc/customizer/customizer.php:793 inc/customizer/customizer.php:844
+msgid "Show Comments"
+msgstr ""
+
+#: inc/customizer/customizer.php:796
+msgid "Show Drop Caps"
+msgstr ""
+
+#: inc/customizer/customizer.php:799 inc/customizer/customizer.php:847
+msgid "Show Author"
+msgstr ""
+
+#: inc/customizer/customizer.php:803
+msgid "Related"
+msgstr ""
+
+#: inc/customizer/customizer.php:807
+msgid "Related Posts Display"
+msgstr ""
+
+#: inc/customizer/customizer.php:832
+msgid "Single Page"
+msgstr ""
+
+#: inc/customizer/customizer.php:850
+msgid "Show Author Description"
+msgstr ""
+
+#: inc/customizer/customizer.php:853
+msgid "Related Posts - Display"
+msgstr ""
+
+#: inc/customizer/customizer.php:868
+msgid "Want more Media? See "
+msgstr ""
+
+#: inc/customizer/customizer.php:878
+msgid "Social Media"
+msgstr ""
+
+#: inc/customizer/customizer.php:884
+msgid "Show Social Icons in New Window"
+msgstr ""
+
+#: inc/customizer/customizer.php:946 inc/customizer/customizer.php:952
+#: inc/customizer/customizer.php:958 inc/customizer/customizer.php:964
+msgid "Select Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:992
+msgid "Page Footer"
+msgstr ""
+
+#: inc/customizer/customizer.php:1000
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/customizer.php:1015
+msgid "Want more Animations? See "
+msgstr ""
+
+#: inc/customizer/customizer.php:1025
+msgid "Preloader"
+msgstr ""
+
+#: inc/customizer/customizer.php:1031
+msgid "Preloading Animation"
+msgstr ""
+
+#: page.php:41 templates/single/post-content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: templates/grid/blog-grid.php:87 templates/single/post-content.php:77
+msgid "1 Comment"
+msgstr ""
+
+#: templates/grid/blog-grid.php:87 templates/single/post-content.php:77
+msgid "Comments"
+msgstr ""
+
+#: templates/grid/blog-grid.php:113
+msgid "Nothing Found!"
+msgstr ""
+
+#: templates/grid/blog-grid.php:114
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/grid/blog-pagination.php:31
+msgid "Loading..."
+msgstr ""
+
+#: templates/grid/blog-pagination.php:64
+msgid "Older Posts"
+msgstr ""
+
+#: templates/grid/blog-pagination.php:70
+msgid "Newer Posts"
+msgstr ""
+
+#: templates/grid/blog-pagination.php:76
+msgid "Load More"
+msgstr ""
+
+#: templates/header/featured-slider.php:112
+msgid "read more"
+msgstr ""
+
+#: templates/single/post-content.php:71
+msgid "By"
+msgstr ""

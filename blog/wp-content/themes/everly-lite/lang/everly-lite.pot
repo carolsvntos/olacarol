@@ -1,0 +1,743 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-31 09:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: category_default.php:32 category_default.php:92 category_default.php:126
+#: category_default.php:170 category_default.php:202 single.php:24
+#: includes/boxes/loopBlogGrid.php:6 includes/boxes/topBlog.php:6
+msgid ", "
+msgstr ""
+
+#: category_default.php:41 category_default.php:101 category_default.php:135
+#: category_default.php:179 category_default.php:211 single.php:33
+#: includes/boxes/loopBlogGrid.php:15
+msgid "by "
+msgstr ""
+
+#: category_grid.php:8
+msgid "Recent posts"
+msgstr ""
+
+#: category_grid.php:9
+msgid "Popular posts"
+msgstr ""
+
+#: category_grid.php:23
+msgid "Load more posts"
+msgstr ""
+
+#: comments.php:42
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:43
+msgid "Leave a Reply to"
+msgstr ""
+
+#: comments.php:44
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:45
+msgid "Website"
+msgstr ""
+
+#: comments.php:46
+msgid "required"
+msgstr ""
+
+#: comments.php:47
+msgid "Mail"
+msgstr ""
+
+#: comments.php:48
+msgid "Name"
+msgstr ""
+
+#: comments.php:49
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:99
+#, php-format
+msgid ""
+"Logged in as <a href=\"%s\">%s</a>. <a title=\"Log out of this account\" "
+"href=\"%s\">Log out?</a>\n"
+msgstr ""
+
+#: functions.php:23
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:24
+msgid "Responsive Menu"
+msgstr ""
+
+#: functions.php:25
+msgid "Scroll Menu"
+msgstr ""
+
+#: functions.php:34
+msgid "Sidebar main"
+msgstr ""
+
+#: functions.php:44
+msgid "Top sidebar left"
+msgstr ""
+
+#: functions.php:53
+msgid "Top sidebar right"
+msgstr ""
+
+#: functions.php:63
+msgid "Sidebar for advert in logo area"
+msgstr ""
+
+#: functions.php:72
+msgid "Sidebar under header left"
+msgstr ""
+
+#: functions.php:81
+msgid "Sidebar under header right"
+msgstr ""
+
+#: functions.php:90
+msgid "Sidebar under header full width"
+msgstr ""
+
+#: functions.php:100
+msgid "Sidebar above footer full width"
+msgstr ""
+
+#: functions.php:109
+msgid "Sidebar above footer left"
+msgstr ""
+
+#: functions.php:118
+msgid "Sidebar above footer right"
+msgstr ""
+
+#: functions.php:128
+msgid "Footer sidebar 1"
+msgstr ""
+
+#: functions.php:137
+msgid "Footer sidebar 2"
+msgstr ""
+
+#: functions.php:147
+msgid "Footer sidebar 3"
+msgstr ""
+
+#: functions.php:406 functions.php:439 functions.php:625
+msgid "Home"
+msgstr ""
+
+#: functions.php:428
+msgid "Search results for "
+msgstr ""
+
+#: functions.php:436
+msgid "Archive"
+msgstr ""
+
+#: functions.php:498
+msgid "Everly Lite options"
+msgstr ""
+
+#: functions.php:531
+msgid "Video URL(*required) - add if you select video post:"
+msgstr ""
+
+#: functions.php:534
+msgid "Link URL - add if you select link post : "
+msgstr ""
+
+#: functions.php:537
+msgid "Audio URL - add if you select audio post "
+msgstr ""
+
+#: functions.php:540
+msgid "No options for this post type."
+msgstr ""
+
+#: functions.php:658 functions.php:665
+msgid "Search and hit enter..."
+msgstr ""
+
+#: functions.php:731
+msgid "Select custom revolution slider:"
+msgstr ""
+
+#: functions.php:735
+msgid "Empty"
+msgstr ""
+
+#: functions.php:790
+msgid "Continue reading"
+msgstr ""
+
+#: functions.php:968
+msgid "Shortcode Ultimate"
+msgstr ""
+
+#: functions.php:973
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:978
+msgid "Facebook Page Like Widget"
+msgstr ""
+
+#: functions.php:983
+msgid "Recent tweets widget"
+msgstr ""
+
+#: functions.php:988
+msgid "MailPoet Newsletters"
+msgstr ""
+
+#: functions.php:993
+msgid "Instagram Feed"
+msgstr ""
+
+#: functions.php:998
+msgid "SoundCloud Shortcode"
+msgstr ""
+
+#: functions.php:1018
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:1019
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:1020
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:1021
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:1022
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:1023
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:1024
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:1025
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:1026
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:1027
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:1028
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:1029
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:1030
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:1031
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:1032
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:1033
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:1034
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#. Name of the template
+msgid "Page fullwidth"
+msgstr ""
+
+#. Name of the template
+msgid "Page with sidebar"
+msgstr ""
+
+#: search.php:9
+msgid "Nothing found for this search term!"
+msgstr ""
+
+#: search.php:15
+msgid "Try again"
+msgstr ""
+
+#: single.php:147 includes/boxes/loopBlog.php:12
+#: includes/boxes/loopBlogGrid.php:26
+msgid "Share: "
+msgstr ""
+
+#: single.php:159
+msgid "Written by "
+msgstr ""
+
+#: single.php:191
+msgid "Related Posts"
+msgstr ""
+
+#: single.php:237
+msgid "Previous post"
+msgstr ""
+
+#: single.php:238
+msgid "Next post"
+msgstr ""
+
+#: admin/admin-interface.php:105 updater/theme-updater.php:30
+msgid "Theme License"
+msgstr ""
+
+#: admin/admin-interface.php:106 updater/theme-updater.php:31
+msgid "Enter your theme license key."
+msgstr ""
+
+#: admin/admin-interface.php:107 updater/theme-updater.php:32
+msgid "License Key"
+msgstr ""
+
+#: admin/admin-interface.php:108 updater/theme-updater.php:33
+msgid "License Action"
+msgstr ""
+
+#: admin/admin-interface.php:109 updater/theme-updater.php:34
+msgid "Deactivate License"
+msgstr ""
+
+#: admin/admin-interface.php:110 updater/theme-updater.php:35
+msgid "Activate License"
+msgstr ""
+
+#: admin/admin-interface.php:111 admin/admin-interface.php:123
+#: updater/theme-updater.php:36 updater/theme-updater.php:48
+msgid "License status is unknown."
+msgstr ""
+
+#: admin/admin-interface.php:112 updater/theme-updater.php:37
+msgid "Renew?"
+msgstr ""
+
+#: admin/admin-interface.php:113 updater/theme-updater.php:38
+msgid "unlimited"
+msgstr ""
+
+#: admin/admin-interface.php:114 updater/theme-updater.php:39
+msgid "License key is active."
+msgstr ""
+
+#: admin/admin-interface.php:115 updater/theme-updater.php:40
+#, php-format
+msgid "Expires %s."
+msgstr ""
+
+#: admin/admin-interface.php:116 updater/theme-updater.php:41
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: admin/admin-interface.php:117 updater/theme-updater.php:42
+#, php-format
+msgid "License key expired %s."
+msgstr ""
+
+#: admin/admin-interface.php:118 updater/theme-updater.php:43
+msgid "License key has expired."
+msgstr ""
+
+#: admin/admin-interface.php:119 updater/theme-updater.php:44
+msgid "License keys do not match."
+msgstr ""
+
+#: admin/admin-interface.php:120 updater/theme-updater.php:45
+msgid "License is inactive."
+msgstr ""
+
+#: admin/admin-interface.php:121 updater/theme-updater.php:46
+msgid "License key is disabled."
+msgstr ""
+
+#: admin/admin-interface.php:122 updater/theme-updater.php:47
+msgid "Site is inactive."
+msgstr ""
+
+#: admin/admin-interface.php:124 updater/theme-updater.php:49
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: admin/admin-interface.php:125 updater/theme-updater.php:50
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>"
+"."
+msgstr ""
+
+#: admin/admin-interface.php:1696
+msgid "Upload"
+msgstr ""
+
+#: admin/theme-options.php:562
+msgid "OOOPS! 404"
+msgstr ""
+
+#: admin/theme-options.php:568
+msgid ""
+"Sorry, but the page you are looking for has not been found.<br/>Try checking "
+"the URL for errors, then hit refresh.</br>Or you can simply click the icon "
+"below and go home:)"
+msgstr ""
+
+#: admin/theme-options.php:579
+msgid "&copy; 2011 All rights reserved. "
+msgstr ""
+
+#: includes/wp-pagenavi.php:54
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: includes/wp-pagenavi.php:64
+msgid "&laquo; First"
+msgstr ""
+
+#: includes/wp-pagenavi.php:78
+msgid "&laquo;"
+msgstr ""
+
+#: includes/wp-pagenavi.php:88
+msgid "&raquo;"
+msgstr ""
+
+#: includes/wp-pagenavi.php:101
+msgid "Last &raquo;"
+msgstr ""
+
+#: includes/boxes/loopBlog.php:18 includes/boxes/loopBlogGrid.php:33
+msgid "Reading time: "
+msgstr ""
+
+#: includes/boxes/loopBlog.php:18 includes/boxes/loopBlogGrid.php:33
+msgid " min"
+msgstr ""
+
+#: admin/import/plugins/parsers_pmc.php:46
+#: admin/import/plugins/parsers_pmc.php:80
+#: admin/import/plugins/parsers_pmc.php:88
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: admin/import/plugins/parsers_pmc.php:47
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: admin/import/plugins/parsers_pmc.php:92
+#: admin/import/plugins/parsers_pmc.php:97
+#: admin/import/plugins/parsers_pmc.php:289
+#: admin/import/plugins/parsers_pmc.php:483
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:252
+#: admin/import/plugins/wordpress-importer.php:270
+#: admin/import/plugins/wordpress-importer.php:372
+#: admin/import/plugins/wordpress-importer.php:380
+#: admin/import/plugins/wordpress-importer.php:398
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:254
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:340
+msgid "All done."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:340
+msgid "Have fun!"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:342
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:382
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:414
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:464
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:516
+msgid "Assign Authors"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:518
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>"
+"admin</code>s entries."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:522
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:542
+msgid "Import Attachments"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:548
+msgid "Download and import file attachments"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:582
+msgid "Import author:"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:604
+msgid "or create new user with login name:"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:610
+msgid "as a new user:"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:626
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:630
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:632
+msgid "- Select -"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:732
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:834
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:914
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:1006
+#: admin/import/plugins/wordpress-importer.php:1288
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:1058
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:1102
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:1220
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:1550
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:1564
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:1738
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:1764
+msgid "Invalid file type"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:1851
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:1864
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:1869
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:1875
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:2070
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:2072
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:2224
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and "
+"tags</strong> from a WordPress export file."
+msgstr ""
+
+#: admin/import/plugins/wordpress-importer.php:2254
+msgid "The given object ID is not that of a menu item."
+msgstr ""
+
+#. Name of the theme
+msgid "Everly Lite"
+msgstr ""
+
+#. Description of the theme
+msgid "Everly Lite - Premium Wordpress Blog Theme"
+msgstr ""
+
+#. URI of the theme
+msgid "https://premiumcoding.com/premiumcoding-wordpress-themes/"
+msgstr ""
+
+#. Author of the theme
+msgid "premiumcoding"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://premiumcoding.com"
+msgstr ""

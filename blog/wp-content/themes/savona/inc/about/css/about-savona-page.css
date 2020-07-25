@@ -1,0 +1,143 @@
+/* General */
+.welcome-text {
+	width: 50%;
+	margin-bottom: 50px;
+	font-size: 16px;
+}
+
+.three-columns-wrap {
+	overflow: hidden;
+}
+
+.three-columns-wrap p {
+	font-size: 14px;
+}
+
+.column-wdith-3 {
+	float: left;
+	width: 30%;
+	max-width: 480px;
+	margin-right: 3%;
+}
+
+.column-wdith-3 .button-primary {
+	height: 36px;
+	line-height: 34px;
+	padding: 0 18px 1px;
+	font-size: 14px;
+}
+
+
+/* Recommended Plugins */
+.three-columns-wrap .plugin-card {
+	position: relative;
+	width: 30% !important;
+	min-height: 170px;
+	padding: 20px;
+	margin-right: 1% !important;
+	margin-left: 0 !important;
+	clear: none !important;
+}
+
+.three-columns-wrap .column-description {
+	margin-top: 20px !important;
+	margin-right: 90px !important;
+}
+
+.three-columns-wrap .column-description p {
+	font-size: 13px !important;
+	margin-bottom: 0 !important;
+}
+
+.three-columns-wrap .action-links {
+	 width: auto !important;
+}
+
+
+/* Free vs Pro */
+.free-vs-pro {
+  width: 50%;
+}
+
+.free-vs-pro th {
+  padding-right: 0;
+  padding-left: 8px;
+  font-size: 1.2em;
+}
+
+.free-vs-pro thead th:first-child {
+  text-align: left;
+  padding-left: 0 !important;
+}
+
+.free-vs-pro thead th {
+  vertical-align: middle;
+}
+
+.free-vs-pro th,
+.compare-icon {
+  text-align: center;
+}
+
+.free-vs-pro td {
+  width: 80%;
+  padding: 20px 0 25px;
+  border-top: 1px solid #ccc;
+}
+
+.free-vs-pro tr:last-child td {
+	text-align: right;
+}
+
+.free-vs-pro h3 {
+  margin: 0 !important;
+}
+
+.free-vs-pro td p {
+  max-width: 450px;
+}
+
+.free-vs-pro .only-pro {
+	color: red;
+}
+
+.compare-icon span:before {
+  font-size: 25px;
+}
+
+.compare-icon .dashicons-yes {
+  color: green;
+}
+
+.compare-icon .dashicons-no {
+  color: red;
+}
+
+
+/* Responsive */
+@media screen and ( max-width: 1600px ) {
+	.three-columns-wrap .plugin-card {
+		width: 49% !important;
+	}
+}
+
+@media screen and ( max-width: 1360px ) {
+	.free-vs-pro {
+		width: 80% !important;
+	}
+}
+
+@media screen and ( max-width: 1160px ) {
+	.three-columns-wrap .plugin-card {
+		width: 100% !important;
+		margin-right: 0 !important;
+	}
+	
+}
+
+@media screen and ( max-width: 790px ) {
+	.column-wdith-3 {
+		width: 100% !important;
+		margin-right: 0 !important;
+	}
+}

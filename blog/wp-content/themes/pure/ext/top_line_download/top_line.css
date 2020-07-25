@@ -1,0 +1,232 @@
+/* switcher */
+body {overflow-x: hidden;	
+}
+.headlines {
+    height: 59px;
+    margin: 0;
+    padding-left: 0 !important;
+}
+#switcher {
+	background: #3f4551;
+    position: fixed;
+	top:0;
+    width: 100%;
+    z-index: 100000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #605e68;
+	min-height:59px;
+	display:none;
+}
+#switcher a {
+	text-decoration: none;
+}
+
+#theme_select {
+	margin: 0;
+	/*background-image: url(dropdown.png);*/
+	background-repeat:no-repeat;
+	height:41px;
+	display: block;
+	color: #ffffff;
+	font-size: 15px;
+	border:1px #616773 solid;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	margin-top:8px;
+	margin-bottom:8px;
+}
+#theme_select:hover, #theme_select.active {border-color:#787d8a;
+}
+#theme_select span.fl {
+	color: #fff;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+    font-size: 15px;
+    margin-left: 15px;
+	margin-right: 15px;
+	line-height:22px;
+    padding-top: 9px;
+    text-transform: none;
+	height:22px;
+	overflow:hidden;
+	float: left;
+}
+
+.gt3_btn a {
+	display:block;
+	transition: background-color 250ms;
+	-webkit-transition: background-color 250ms;
+	line-height:22px;
+	background-color:#ed6a6a;
+	font-size:15px;
+	font-weight:700;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	padding:10px 21px 11px 21px;
+	margin-top:8px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.gt3_btn a:hover {background-color:#fa8383;
+}
+
+li.download,
+li.socials,
+li#theme_list {float:right !important;
+}
+
+li.remove_frame {
+	padding-right:9px !important;
+	float:right !important;
+}
+
+li.remove_frame a {
+	background-image: url(remove.png);
+	background-color: transparent;
+	background-position:center center;
+	background-repeat:no-repeat;
+	border:1px #616773 solid;
+	display:block;
+	width:41px;
+	height:41px;
+	padding:0;
+	line-height:41px;
+	transition: border-color 250ms;
+	-webkit-transition: border-color 250ms;
+	text-indent:-10000px;
+	margin-top:8px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+}
+li.remove_frame a:hover {border-color:#787d8a;
+}
+
+.socials_block {
+	border:1px #616773 solid;
+	margin-top:8px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:11px 0 0 10px;
+	height:30px;
+}
+.soc_item {
+	display:inline-block;
+	vertical-align:top;
+	margin-right:7px;
+} 
+
+.soc_fb {
+	margin-top:-10px;
+}
+
+.soc_gplus {
+	margin-top:-2px;
+}
+
+#iframe {margin-top: 59px; 
+}
+
+#switcher .logo img {
+	margin:20px 3px 0 19px;
+	transition: opacity 250ms;
+	-webkit-transition: opacity 250ms;
+} 
+#switcher .logo a:hover img {
+	opacity: 0.7; 
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+#switcher .socIcons a {
+	background-color:#3a3841;
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:block;
+	width:44px;
+	height:44px;
+	padding:0;
+	line-height:44px;
+	transition: background-color 300ms;
+	-webkit-transition: background-color 300ms;
+	text-indent:-10000px;
+}
+#switcher .socIcons a:hover {background-color:#4f4d58;
+}
+#switcher .addFavorite a {background-image: url(favorite.png);
+}
+#switcher .addFacebook a {background-image: url(soc_fb.png);
+}
+#switcher .addFacebook a:hover {background-color:#3a57a2;
+}
+#switcher .addTwitter a {background-image: url(soc_twitter.png);
+}
+#switcher .addTwitter a:hover {background-color:#00a9f4;
+}
+#switcher .addDribbble a {background-image: url(soc_dribbble.png);
+}
+#switcher .addDribbble a:hover {background-color:#e6528b;
+}
+#switcher .addBehance a {background-image: url(soc_behance.png);
+}
+#switcher .addBehance a:hover {background-color:#2498d5;
+}
+
+.center {width: 100%;
+}
+.center ul li {
+	height: 59px;
+	display: inline;
+	float: left;
+	position: relative;
+	padding-right:8px;
+}
+
+.f_left {float:left;
+}
+.f_right {float:right;
+}
+.c_lear {
+	clear:both;
+	font-size:0;
+	height:0;
+}
+
+@media only screen and (max-width: 1000px) {
+	.socials {display:none !important;
+	} 
+}
+
+@media only screen and (max-width: 767px) {
+	.logo,
+	.socIcons,
+	.online_chat,
+	.previmg_cont,
+	.online_chat a,
+	.banner_hosting a {display: none !important;
+	}
+	#theme_select {
+		margin-left:9px;
+	}
+	li#theme_list {
+		float:left !important;
+	}
+	
+}
+@media only screen and (max-width: 550px) {
+	li.download a {
+		width:43px !important;
+		height:43px !important;
+		padding:0 !important;
+		overflow:hidden;
+		text-indent:-9999px;
+		background-image: url(download.png);
+		background-position:center center;
+		background-repeat:no-repeat;
+	}
+	.center ul li {padding-right:6px;
+	}
+	#theme_select {
+		width: 200px;
+	}
+}

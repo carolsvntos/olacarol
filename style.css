@@ -1,0 +1,641 @@
+body{
+    color:#626262;
+    font-family:arial;
+    font-size:14px;
+}
+
+a {
+    color:#44bd32;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+h2 {
+    color:#31343b;
+    font-size:40px;
+    font-weight: bold;
+    margin-top: -39px;
+    padding-bottom: 15px;
+}
+
+h2:before {
+    content: '';
+    display: block;
+    width: 115px;
+    height: 30px;
+    position: relative;
+    left:-9px;
+    top:52px;
+    z-index: -1;
+    background-color: #c6ffe3;
+}
+
+::selection {
+    background: #b9ffa2;
+}
+
+::-moz-selection {
+    background: #b9ffa2;
+}
+
+.o-btn {
+    font-size:12px;
+    font-weight:bold;
+    padding: 15px 50px;
+    margin:0;
+    color: #474747;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display:inline-block;
+    border:solid 1px #44bd32;
+    background:transparent;
+    cursor: pointer;
+}
+
+.o-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #000;
+    -webkit-transform: scaleY(.3);
+    transform: scaleY(.3);
+    opacity: 0;
+    transition: all .3s
+}
+
+.o-btn:hover {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+.o-btn:hover::before {
+    opacity: 1;
+    background-color: #44bd32;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s;
+    transition: transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity
+}
+
+.o-top {
+    background:url('images/header.jpg') center top no-repeat;
+    background-color:#ffffff;
+    height:367px;
+    background-attachment: fixed;
+}
+
+.o-top h2 {
+    color:#FFFFFF;
+    margin-top:0;
+}
+
+.o-content {
+    padding-top:90px;
+}
+
+.o-content .o-social-networks {
+    list-style-type: none;
+    margin:10px 0 0 0;
+    padding:0;
+}
+
+.o-content img {
+    max-width:100%;
+}
+
+.o-content .o-social-networks li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.o-content .o-social-networks li a i {
+    font-size:20px;
+}
+
+.o-content .o-social-networks li a {
+    color:#626262;
+    transition: color 0.2s ease-out;
+}
+
+.o-content .o-social-networks li a:hover {
+    color:rgba(0,0,0,0.2);
+}
+
+.o-web {
+    background:url('images/web-bg.jpg') no-repeat right center;
+    height:600px;
+}
+
+.o-logo {
+    background:url('images/logo.png');
+    height:30px;
+    width:30px;
+    display:block;
+    background-size:30px;
+    margin-top: 12px;
+}
+
+.o-logo:hover {
+    text-decoration:none;
+}
+
+h1 {
+    color: transparent;
+    height:30px;
+    width:30px;
+    line-height:0;
+    letter-spacing:0;
+    font-size:10px;
+    user-select: none;
+}
+
+.o-side-menu {
+    list-style-type: none;
+    float: right;
+    margin-top: 14px;
+}
+
+.o-side-menu li {
+    display: inline;
+    float: left;
+    margin-left: 30px;
+}
+
+.o-side-menu li a {
+    color:#FFFFFF;
+    font-size:12px;
+    text-transform:uppercase;
+    position:relative;
+    text-decoration:none;
+}
+
+.o-side-menu li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    left:-10%;
+    top:17px;
+    width: 120%;
+    height: 2px;
+    background: #FFFFFF;
+    display: block;
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+    transition: transform 0.4s cubic-bezier(1, 0, 0, 1)
+}
+
+.o-side-menu li a:hover::before {
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    text-decoration:none;
+}
+
+.o-side-menu li .active {
+    color:#FFFFFF70;
+}
+
+.o-btn-responsive {
+    float:right;
+    color:#FFFFFF;
+    margin-top: 13px;
+    padding-bottom: 14px;
+}
+
+.navbar-collapse {
+    background:#25282d;
+    width:230px;
+    padding: 10px 30px;
+    top: 50px;
+    position: fixed;
+    right: 10px;
+    border-radius:5px;
+}
+
+.navbar-collapse::before {
+    content: "";
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: transparent transparent #25282d transparent;
+    position: absolute;
+    /* left: -15px;
+     */ top:-20px;
+    right:16px;
+}
+
+.navbar-collapse ul {
+    list-style-type: none;
+    padding:0;
+    text-align:center;
+    margin:0;
+}
+
+.navbar-collapse ul li {
+    padding:10px 0;
+    border-top: solid 1px #1B1D1D;
+}
+
+.navbar-collapse ul li:first-child {
+    border-top: 0;
+}
+
+.navbar-collapse ul li a {
+    color:#FFFFFF;
+    padding: 13px 35%;
+}
+
+.o-fixed {
+    position: fixed;
+    width: 100%;
+    padding:0 100px;
+    z-index:1;
+}
+
+.transparent {
+    background:transparent;
+    -webkit-transition: background 0.5s ease-out;
+    -moz-transition: background 0.5s ease-out;
+    -o-transition: background 0.5s ease-out;
+    transition: background 0.5s ease-out;
+}
+
+.pink {
+    background:#31343b;
+    -webkit-transition: background 0.5s ease-out;
+    -moz-transition: background 0.5s ease-out;
+    -o-transition: background 0.5s ease-out;
+    transition: background 0.5s ease-out;
+}
+
+.o-header {
+    margin: 60px 0 0 15%;
+    display:inline-block;
+}
+
+.o-header h2 {
+    font-size:34px;
+    width:420px;
+    font-weight:normal;
+    line-height:30px;
+    display:inline-block;
+}
+
+.o-header span {
+    font-size:54px;
+    font-weight:bold;
+    line-height:60px;
+}
+
+.o-header .o-social-networks {
+    list-style-type: none;
+    margin:10px 0 0 0;
+    padding:0;
+}
+
+.o-header .o-social-networks li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.o-header .o-social-networks li a i {
+    font-size:30px;
+}
+
+.o-header .o-social-networks li a {
+    color:#FFFFFF;
+    transition: color 0.2s ease-out;
+}
+
+.o-header .o-social-networks li a:hover {
+    color:rgba(250,250,250,0.2);
+}
+
+.o-web {
+    background:url('images/web-bg.jpg') no-repeat right center;
+    height:600px;
+}
+
+.o-web img {
+    height:300px;
+    margin: 28% 0 0 -10%;
+}
+
+.o-web .o-content {
+    margin: 80px 0 0;
+}
+
+.o-web .o-content p {
+    margin:30px 0 40px;
+}
+
+.o-branding {
+    background:url('images/branding-bg.jpg') no-repeat left center;
+    height:520px;
+}
+
+.o-branding img {
+    width:200px;
+    margin: 30% 0 0 60%;
+    transition: 0.5s ease-out;
+}
+
+.o-branding .o-content {
+    margin: 30px 0 0;
+}
+
+.o-branding .o-content p {
+    margin:30px 0 40px;
+}
+
+.o-illustration {
+    background:url('images/illustration-bg.jpg') no-repeat right center;
+    height:600px;
+}
+
+.o-illustration img {
+    width:250px;
+    margin-top:120px;
+}
+
+.o-illustration .o-content {
+    margin: 100px 0 0;
+}
+
+.o-illustration .o-content p {
+    margin:30px 0;
+}
+
+.o-footer {
+    font-size:10px;
+    text-align:center;
+    padding:20px 0;
+}
+
+.o-footer hr {
+    width:45px;
+    height:3px;
+    background:#eeeeee;
+    border:0;
+}
+
+.o-avatar {
+    opacity: .9;
+    background: url(images/carolsantos.jpg) no-repeat 7% 0;
+    min-height: 474px;
+}
+
+.o-avatar img {
+    float:right;
+}
+
+.carol-santos {
+    margin-top: -20px;
+    margin-left: -95px;
+}
+
+.o-jobs .o-date {
+    color:#8c8c8c;
+    font-size:10px;
+    text-transform:uppercase;
+    font-weight:bold;
+    text-align:right;
+    margin:0;
+}
+
+.o-jobs .o-company {
+    color:#ff799c;
+    font-weight:bold;
+    font-size:16px;
+    text-align:right;
+    margin:0;
+}
+
+.o-jobs .o-company a {
+    color:#ff799c;
+    transition:.3s;
+    text-decoration:none;
+}
+
+.o-jobs .o-company a:hover {
+    color:#d2456a;
+    transition:.3s;
+}
+
+.o-jobs .o-position {
+    color:#ff799c;
+    font-weight:lighter;
+    font-size:14px;
+    text-align:right;
+    margin:0;
+}
+
+.o-job-list {
+}
+
+.o-job-list a {
+    transition: opacity 0.2s ease-out;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.o-job-list a img {
+    width:210px;
+    transition: opacity 0.2s ease-out;
+}
+
+.o-job-list a:hover img {
+    opacity:.5;
+    text-decoration: none;
+}
+
+.o-job-list a p {
+    font-weight: bold;
+    font-size:16px;
+    text-transform:uppercase;
+    top: 0;
+    padding: 73px 10px 0;
+    line-height: 19px;
+
+
+    display:inline-block;
+    opacity: 0;
+    width: 210px;
+    background: #6564499e;
+    position: absolute;
+    left: 0;
+    height: 210px;
+    text-align: center;
+    transition: opacity 0.2s ease-out;
+    color:#FFFFFF;
+}
+
+.o-job-list a p span {
+    font-size:10px;
+}
+
+.o-job-list a:hover p {
+    opacity:1;
+}
+
+.o-job-filter .dropdown-toggle {
+    color:#626262!important;
+    font-size:10px;
+    text-transform:uppercase;
+    border:0;
+    font-weight:bold;
+    float:right;
+    padding:10px;
+    background:#FFFFFF;
+}
+
+.o-job-filter .dropdown-toggle:hover, .o-job-filter .dropdown-toggle:focus, .o-job-filter .dropdown-toggle:active,  .o-job-filter .dropdown-toggle:focus-within {
+    background:#FFFFFF!important;
+    color:#626262!important;
+}
+
+.o-job-filter .dropdown-menu-right {
+    font-size:12px;
+}
+
+.o-content .o-job-list .filterDiv {
+    display: none;
+}
+
+.o-content .o-job-list .show {
+    display: block;
+}
+
+.o-portfolio-header {
+    height:415px;
+    background-position: center 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.center {
+    text-align:center;
+}
+
+.o-index a {
+    color:#FFFFFF!important;
+}
+
+.email2 {
+    display: none;
+}
+
+form {
+    margin-top:30px;
+}
+
+.form-group label {
+    color:#626262;
+    font-size:12px;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.form-group input, .form-group textarea, .form-group select,
+.form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+    background-color:#ebebeb;
+    border:0;
+    border-radius:3px;
+}
+
+@media (max-width: 991px){
+    .o-avatar {
+        background-size: 200px;
+    }
+}
+
+@media (max-width: 767px){
+    .o-header {
+        margin:60px 0 0 5%;
+    }
+    .o-header h2 {
+        max-width:350px;
+        font-size: 26px;
+        width:auto;
+        line-height: 25px;
+    }
+    .o-header h2 span {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .o-fixed {
+        padding:0;
+    }
+    .o-web {
+        opacity:.9;
+    }
+    .o-web .o-content {
+        margin: 50px 0 0;
+    }
+    .o-branding {
+        opacity:.9;
+    }
+    .o-branding .o-content {
+        margin: 0;
+    }
+    .o-illustration {
+        opacity:.9;
+    }
+    .o-illustration .o-content {
+        margin: 90px 0 0;
+    }
+    .o-footer {
+        padding: 0 0 20px;
+    }
+    .o-avatar {
+        background-size: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .o-jobs .o-date,
+    .o-jobs .o-company,
+    .o-jobs .o-position {
+        text-align:center;
+    }
+}
+
+@media (max-width: 495px) {
+    .o-avatar {
+        background:#FFFFFF;
+    }
+    .o-avatar .col-4 {
+        display: none;
+    }
+    .carol-santos {
+        margin-left:0;
+    }
+}
+
+@media (max-width:393px){
+    .o-btn {
+        width:100%;
+    }
+    .o-btn:first-child {
+        margin-bottom:10px;
+    }
+}
